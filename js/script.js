@@ -22,7 +22,7 @@ function myButtonClicked() {
   document.getElementById("hello-world").innerHTML = "<p>Hello, World!</p>"
 }
 /**
- * This function calculates area and perimeter of rectangle
+ * This function calculates area and perimeter of rectangle.
  */
 function calculate() {
   // input
