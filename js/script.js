@@ -26,9 +26,11 @@ function myButtonClicked() {
  */
 function calculate() {
   // input
-  const fahrenheit = parseInt(document.getElementById("fahrenheit-to-celsius").value) 
+  const fahrenheit = parseInt(
+    document.getElementById("fahrenheit-to-celsius").value
+  )
   // process
-  const celsius = (fahrenheit - 32 ) * 5 / 9 
+  const celsius = ((fahrenheit - 32) * 5) / 9
 
   // output
   document.getElementById("celsius").innerHTML = "celsius: " + celsius + " ° "
