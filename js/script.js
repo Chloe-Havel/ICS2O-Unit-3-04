@@ -26,12 +26,10 @@ function myButtonClicked() {
  */
 function calculate() {
   // input
-  const length = parseInt(document.getElementById("length-of-pyramid").value)
-  const width = parseInt(document.getElementById("width-of-pyramid").value)
-  const height = parseInt(document.getElementById("height-of-pyramid").value)
+  const fahrenheit = parseInt(document.getElementById("fahrenheit-to-celsius").value) 
   // process
-  const pyramid = (length * width * height) / 3
+  const celsius = (fahrenheit - 32 ) * 5 / 9 
 
   // output
-  document.getElementById("Volume").innerHTML = "Volume: " + pyramid + " mm² "
+  document.getElementById("celsius").innerHTML = "celsius: " + celsius + " ° "
 }
