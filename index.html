@@ -51,41 +51,11 @@
             </th>
             <th>
               <h2>Formulas</h2>
-              <h3>v = ( L x W x H ) / 3</h3>
+              <h3>(32°F - 32) * 5/9 = 0°C</h3>
             </th>
           </tr>
         </table>
         <!-- Simple Textfield -->
-        <form action="#">
-          length:
-          <div class="mdl-textfield mdl-js-textfield">
-            <input
-              class="mdl-textfield__input"
-              type="text"
-              pattern="-?[0-9]*(\.[0-9]+)?"
-              id="length-of-pyramid"
-              aria-label="length"
-            />
-            <span class="mdl-textfield__error">Input is not a number!</span>
-          </div>
-          mm
-        </form>
-        <!-- Numeric Textfield -->
-        <form action="#">
-          Width:
-          <div class="mdl-textfield mdl-js-textfield">
-            <input
-              class="mdl-textfield__input"
-              type="text"
-              pattern="-?[0-9]*(\.[0-9]+)?"
-              id="width-of-pyramid"
-              aria-label="width"
-            />
-            <span class="mdl-textfield__error">Input is not a number!</span>
-          </div>
-          mm
-        </form>
-        <!-- Numeric Textfield -->
         <form action="#">
           height:
           <div class="mdl-textfield mdl-js-textfield">
@@ -93,12 +63,12 @@
               class="mdl-textfield__input"
               type="text"
               pattern="-?[0-9]*(\.[0-9]+)?"
-              id="height-of-pyramid"
-              aria-label="height"
+              id="fahrenheit-to-celsius"
+              aria-label="fahrenheit"
             />
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
-          mm
+          °
         </form>
         <!-- Raised button with ripple -->
         <button
@@ -109,8 +79,8 @@
         </button>
         <br />
         <div id="answers">
-          <div id="Volume"></div>
-          <div id="perimeter"></div>
+          <div id="fahrenheit"></div>
+          <div id="celsius"></div>
         </div>
       </main>
     </div>
